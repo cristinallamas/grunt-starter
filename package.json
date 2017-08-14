@@ -1,0 +1,66 @@
+{
+  "name": "grunt_starter",
+  "version": "1.0.0",
+  "description": "Grunt starter",
+  "private": true,
+  "dependencies": {
+    "sass-mq": "^3.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "compass-importer": "^0.4.1",
+    "eslint-stylish-config": "0.0.2",
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-bump": "^0.8.0",
+    "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-eslint": "^19.0.0",
+    "grunt-newer": "^1.2.0",
+    "grunt-pagespeed": "^2.0.1",
+    "grunt-sass": "^1.2.1",
+    "grunt-sass-lint": "^0.2.2",
+    "grunt-webpack": "^1.0.18",
+    "jit-grunt": "^0.10.0",
+    "load-grunt-configs": "^1.0.0",
+    "load-grunt-tasks": "^3.5.2",
+    "napa": "^2.3.0",
+    "ngrok": "^2.2.4",
+    "node-sass": "^3.12.2",
+    "node-sass-asset-functions": "0.0.9",
+    "time-grunt": "^1.4.0",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "scripts": {
+    "install": "napa"
+  },
+  "napa": {
+    "jacket": "at-import/jacket#84ac5b01d4747f192b7ba6cceb3d70bbe01c49ff"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended"
+    ],
+    "env": {
+      "node": true,
+      "browser": true,
+      "es6": true
+    },
+    "rules": {
+      "quotes": [
+        2,
+        "single"
+      ],
+      "indent": [
+        2,
+        2
+      ],
+      "no-console": "warn"
+    }
+  }
+}
